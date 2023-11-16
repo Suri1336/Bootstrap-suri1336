@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+
+                    <button class="btn bg-success me-md-2" type="button" data-bs-target="#my-modal"
+                        data-bs-toggle="modal">
+                        Create a new post
+                    </button>
+                    <!--pop up starts here-->
+                    <div class="modal" id="my-modal" aria-labelledby="my-modal-lable" aria-hidden="true" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Create a new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label for="Caption">
+                                            <strong>Caption</strong>
+                                        </label>
+
+                                        <textarea id="Caption" class="form-control" rows="3"
+                                            placeholder="Add the caption of your post here"></textarea>
+                                        <button class="btn btn-light" type="button">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </button>
+                                        <button class="btn btn-light" type="button">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class=" btn-group ">
+
+                        <button class="btn btn-secondary  dropdown-toggle" type="button" id="dropdown-gear"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-gear">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Accessibiltiy</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-danger" href="#">
+                                        Log out
+                                    </a>
+                                </li>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+
+    </nav>
+
+<div class="d-flex justify-content-center">
+<a href="index.html">
+    <i class="fa-regular fa-square mx-1"></i>
+</a>
+<a href="grid.html">
+    <i class="fa-solid fa-table-cells mx-1"></i>
+</a>
+
+</div>
+    </div>
+ <div class="mx-auto9 w-75" style="margin: auto;">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/42/3456/2304.jpg?hmac=dhQvd1Qp19zg26MEwYMnfz34eLnGv8meGk_lFNAJR3g">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/102/4320/3240.jpg?hmac=ico2KysoswVG8E8r550V_afIWN963F6ygTVrqHeHeRc">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/239/1739/1391.jpg?hmac=-Zh20gMdOuV7tHr4wGEUqACAxdvb7gkDlKKS9MIE1TU">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/429/4128/2322.jpg?hmac=_mAS4ToWrJBx29qI2YNbOQ9IyOevQr01DEuCbArqthc">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/507/3882/2912.jpg?hmac=hfaajgtH88_TZmMb24LnS2XFyW6x_MoehZOgw4tCSD8">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/106/2592/1728.jpg?hmac=E1-3Hac5ffuCVwYwexdHImxbMFRsv83exZ2EhlYxkgY">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/511/4608/3456.jpg?hmac=Z_f-NWMzc5-v2Zp9MDUXYxgoLBIPlRKuJK6hDKOgj48">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/517/5000/3333.jpg?hmac=OieVLLYTDvl-gokbU9_sFemOkfetl9ql_KiNPbUyuYw">
+    <img class="m-1" height="325px" width="325x" src="https://fastly.picsum.photos/id/593/1774/2365.jpg?hmac=zzvok1xX2Is_tGRfdHUANqWsOIK0T-HVzWPkaMqZInw">
+ </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
